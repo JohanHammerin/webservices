@@ -17,12 +17,12 @@ public class UserController {
     // Debugging User List (Database users)
     List<CustomUser> userList = new ArrayList<>(
             List.of(
-                    new CustomUser("Johan", "123", true),
-                    new CustomUser("Johan", "123", false),
-                    new CustomUser("123", "Johan", true),
-                    new CustomUser("Benny", "456", true),
-                    new CustomUser("456", "Benny", true),
-                    new CustomUser("admin", "0", true)
+                    new CustomUser(1,"Johan", "123", true),
+                    new CustomUser(2,"Johan", "123", false),
+                    new CustomUser(3,"123", "Johan", true),
+                    new CustomUser(4,"Benny", "456", true),
+                    new CustomUser(5,"456", "Benny", true),
+                    new CustomUser(6,"admin", "0", true)
             )
     );
 
