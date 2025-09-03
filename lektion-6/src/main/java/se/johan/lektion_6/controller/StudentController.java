@@ -49,13 +49,4 @@ public class StudentController {
         return ResponseEntity.noContent().build();
     }
 
-
-/* INSTRUCTIONS
-Skapa en Put Mapping
-Skapa felhantering för om ID’t, användarnamn,
-Lösenord inte existerar!
-Här är det viktigt att en visar upp rätt
-meddelanden som också är beskrivande men samt
-med så lite/tydlig kod som möjligt.
-*/
 }
